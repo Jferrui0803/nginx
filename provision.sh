@@ -50,7 +50,7 @@ sudo usermod -aG www-data jferrui
 sudo mkdir -p /var/www/Extreme-Sports/html/
 
 # Asignar permisos
-sudo chown -R www-data:www-data /var/www/Extreme-Sports    #dar permisos a /var/www para hacer la transferecia en Filezilla
+sudo chown -R www-data:www-data /var/www/Extreme-Sports    
 sudo chmod -R 775 /var/www/Extreme-Sports/
 
 # Copiar archivo de configuración desde /vagrant a /etc/nginx/sites-available
