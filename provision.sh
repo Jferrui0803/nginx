@@ -51,7 +51,7 @@ sudo mkdir -p /var/www/Extreme-Sports/html/
 
 # Asignar permisos
 sudo chown -R www-data:www-data /var/www/   
-sudo chmod -R 775 /var/www/Extreme-Sports/
+sudo chmod -R 775 /var/www/
 
 # Copiar archivo de configuración desde /vagrant a /etc/nginx/sites-available
 sudo cp /vagrant/Extreme-Sports /etc/nginx/sites-available/
